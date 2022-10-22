@@ -15,15 +15,9 @@
 
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.Tab?>
-<<<<<<< HEAD
-<?import javafx.scene.control.TabPane?>
-<?import javafx.scene.control.Tab?>
+
 <fx:root type="javafx.stage.Stage" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
          title="Address App" minWidth="450" minHeight="600" onCloseRequest="#handleExit">
-=======
-
-<fx:root minHeight="600" minWidth="450" onCloseRequest="#handleExit" title="Address App" type="javafx.stage.Stage" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
->>>>>>> master
   <icons>
     <Image url="@/images/address_book_32.png" />
   </icons>
@@ -59,7 +53,7 @@
         <SplitPane dividerPositions="0.5" VBox.vgrow="ALWAYS">
           <TabPane fx:id="dataPanelsTabPane" styleClass="pane-with-border" tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
             <tabs>
-              <Tab fx:id="personListPanel1" text="Persons">
+              <Tab fx:id="personListPanelTab" text="Persons">
                 <!--List Of Patient Cards-->
                 <VBox fx:id="personList" styleClass="pane-with-border" minWidth="340" prefWidth="340"
                       VBox.vgrow="ALWAYS">
@@ -69,20 +63,20 @@
                   <StackPane fx:id="personListPanelPlaceholder" VBox.vgrow="ALWAYS"/>
                 </VBox>
               </Tab>
-              <Tab fx:id="groupListPanel1" text="Group">
+              <Tab fx:id="groupListPanelTab" text="Group">
                 <!--Current Visit-->
                 <VBox fx:id="groupList" styleClass="pane-with-border" minWidth="340" prefWidth="340"
                       VBox.vgrow="ALWAYS">
                   <padding>
                     <Insets top="10" right="10" bottom="10" left="10"/>
                   </padding>
-                  <StackPane fx:id="groupListPanelPlaceholder" VBox.vgrow="ALWAYS"/>
+                  <StackPane fx:id="assignmentListPanelPlaceholder" VBox.vgrow="ALWAYS"/>
                 </VBox>
               </Tab>
             </tabs>
           </TabPane>
 
-          <VBox fx:id="groupList" minWidth="340" prefWidth="340" styleClass="pane-with-border" VBox.vgrow="ALWAYS">
+          <VBox fx:id="groupList1" minWidth="340" prefWidth="340" styleClass="pane-with-border" VBox.vgrow="ALWAYS">
             <TextField alignment="CENTER" editable="False" style="-fx-background-color: #808080;" text="Groups" />
             <StackPane fx:id="groupListPanelPlaceholder" VBox.vgrow="ALWAYS" />
             <padding>
