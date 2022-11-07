@@ -29,7 +29,8 @@ Given below are my contributions to the project.
   - Add JUnit test cases for `Logic` and `Model` classes ([#82](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/82),
 [#98](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/98),
 [#139](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/139),
-[#195](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/195))
+[#195](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/195),
+[#221](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/221))
   - Popup window of help command ([#110](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/110),
 [#128](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/128),
 [#130](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/130))
@@ -58,6 +59,9 @@ Given below are my contributions to the project.
   - Update User Stories ([#22](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/22), [#49](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/49)),
 and finalize Use Cases ([#218](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/218))
   - Update implementation `AssignTask` command with an activity diagram ([#119](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/119))
+  - Finalize DG by adding page breaks and update minor mistakes ([#227](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/227),
+  [#232](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/232),
+  [#239](https://github.com/AY2223S1-CS2103T-W10-1/tp/pull/239))
 
 
 **Contributions to team-based tasks**
